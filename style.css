@@ -1,0 +1,164 @@
+body
+{
+    background-image:url("background.jpg") ;
+
+}
+
+/* Add these styles to your existing styles.css file */
+
+
+
+section
+{
+    
+    
+    color:aliceblue;
+    
+   
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh; 
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Additional Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 30px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.social-media a:hover {
+    color: #555;
+}
+
+
+
+@keyframes openBook {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}
+
+.book-container {
+    perspective: 1000px;
+    position: relative;
+}
+
+.book {
+    width: 200px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.cover{
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+ 
+}
+
+/* Add this to your existing CSS */
+.double-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page {
+    flex: 1;
+    box-sizing:border-box;
+    padding: 20px;
+    background-color: rgba(74, 47, 74, 0.8);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backface-visibility: hidden;
+}
+
+.book-cover {
+    max-width: 10%;
+    height: 10%;
+    float:inline-end;
+    
+}
+
+.pic
+{
+
+    align-items: right;
+}
+
+.harry-potter-header {
+    text-align: center;
+    color: rgb(255, 252, 151); /* Gryffindor red */
+}
+
+.harry-potter-body {
+    margin: 0;
+}
+
+.harry-potter-quote {
+    font-style: italic;
+}
+
+.harry-potter-footer {
+    background-color: #1D1D1D; /* Dark wizard robe black */
+    color: #D3D3D3; /* Hogwarts stone gray */
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media a {
+    color: #fffbfb; /* Gryffindor red */
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+

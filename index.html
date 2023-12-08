@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Add a separate CSS file for Harry Potter aesthetics -->
+    <title>Harry Potter: Philosopher's Stone</title>
+</head>
+
+<body class="harry-potter-body">
+    <div class="place">
+        <img src="logo.png" alt="Wizarding World Logo">
+        <div class="book-cover">
+            <img src="book.jpg" alt="Book Cover">
+        </div>
+    </div>
+
+    <header class="harry-potter-header">
+        <h1>The Wizarding World!</h1>
+    </header>
+
+    <section class="main-content">
+        <div class="book-container" onclick="openNextPages()">
+            <div class="double-page" id="doublePage">
+                <div class="page" id="page1">
+                    <h2></h2>
+                    <p class="harry-potter-quote">“It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.”</p>
+                    <br>
+                    <p class="harry-potter-quote">“To the well-organized mind, death is but the next great adventure.”</p>
+                </div>
+                <div class="page" id="page2">
+                    <img src="1.jpg" alt="Picture 1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="harry-potter-footer">
+        <p>&copy; 2023 Wizarding World</p>
+        <div class="social-media">
+            <a href="about.html" target="_blank">About</a>
+            <a href="buy.html" target="_blank">Buy Now</a>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="feedback.html" target="_blank">Feedback</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
